@@ -6,9 +6,22 @@ Use flexbox to:
    page in a row, with space around each element. Images should wrap to a new
    row if there's not enough room.
 */
+#gallery {
+    display: flex;
+      justify-content: center;
+}
 
+#nav {
+    display: flex;
+      flex-direction: row;
+}
 
-
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 
 /*You don't need to change this unless you want to*/
